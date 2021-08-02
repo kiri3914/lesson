@@ -1,4 +1,4 @@
-
+'''
 #PROBLEM 1
 
 languages=['go','java','php','python','javascript','ruby']
@@ -10,9 +10,6 @@ if l in languages:
 else:
 	print('this language not in list')
 
-# код считает(enumerate) значение внутри переменного languages
-# c помощю if ищет(count) значение переменного l
-'''
 #PROBLEM 2 
 
 languages=['go','java','php','python','javascript','ruby']
@@ -28,12 +25,13 @@ a=7
 for i in range (5):
   print((a*a)*i)
 
-
 #PROBLEM 4
 languages=['go','java','php','python','javascript','ruby']
 for i in range (1,6):
 	print( i, languages [i] )
 	i = i+1
+
+
 
 #PROBLEM 5
 for x in range(-9,9):
@@ -41,7 +39,6 @@ for x in range(-9,9):
 print (1)
 
 #PROBLEM 6
-
 names = ('Максат','Лязат','Данияр','Айбек','Атай','Салават','Адинай','Жоомарт','Алымбек','Эрмек','Дастан','Бекмамат','Аслан',)
 
 i=0
@@ -90,25 +87,25 @@ c = (a*99/5)+(-9)
 print('5# Если его умножиь на 99 и разделить на 5 и прибавить -9')
 print(c)
 
-
 #PROBLEM 9
 #1. Каждое число которое делиться на 13 без остатка возводить в квадрат если оно чётное
 
 s = 0
 for i in range(-100, 100): 
-	if i %13==0 and i %2 ==0:
+	if i %13==0 and i %2==0:
 		s +=1
-		print(i**2)
+		print(i**2, [i])
 
 print("end #1")
 # 2 . Каждое 7 число проверять на НЕчестность и выводить на экран если оно нечётное.
 d = 0
 for r in range(-100, 100, 7):
-	if r%2!=0:
+	if r %2:
  		d += 1
  		print(r)
 print('end #1') 
 
 print(s, "значений подходит под первое условие")
 print(d, "значений подходит под второе условие")
+
 '''

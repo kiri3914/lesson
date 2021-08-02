@@ -1,8 +1,4 @@
-
 '''
-
-
-
 #PROBLEM1
 a=2**3
 b=3**2
@@ -12,27 +8,37 @@ elif a == b:
 	print("a равна b")
 else:
         print("условие неверно")
+
 #PROBLEM2
-a=21
-b=66
-if  a>0 and a<21:
+a=25
+b=55
+
+if  a<0 or a>21:
 	print('запрещенный')
-elif b>57 and b<100:
+if b<57 or b>100:
 	print('запрещенный')
 else:
 	print('условия не соблюдены')
 
 #PROBLEM 3
-a = 4
+a = 9
 print(a)
-if a /2:
-	print('верно')
+if a %2:
+	print('четное')
+else:
+	print('не четное')
+
 if a %3:
-	print('верно')
-if a%3:
-	print('не делится без остатка на 3')
-elif a**2 and a>1000:
+	print('делится на 3 без остатка')
+else:
+	print('не делится на 3 без остатка')
+
+s = a**2
+if s > 1000: 	
 	print('a больше 1000')
+else:
+	print('a меньше 1000')
+
 
 
 #PROBLEMA 4
