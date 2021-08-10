@@ -110,14 +110,17 @@ x.append(b)
 x.append(c)
 x.append(d)
 print(x)
-
+'''
 #PROBLEM 8
 #Взять Лист №2 из Google Colab узнать индекс объекта(строки) "loop" и удалить его по индексу 
 
 pythonList = ["int", "str", "bool", "if", "else", "elif", "loop", "tuple", "list", "None", True, False]
-p = lun()
-print(pythonList[6])
 
+i = "loop"
+
+for 
+
+'''
 #PROBLEM 9
 #Взять Лист №3 из Google Colab и посчитать произведение этих чисел т.е. умножить их все и вывести результат.
 

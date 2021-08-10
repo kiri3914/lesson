@@ -1,0 +1,3 @@
+lesson          snap    Видео       Изображения     Шаблоны
+psevdocod.txt   test    Документы   Музыка
+__pycache__     tuple   Загрузки   'Рабочий стол'
